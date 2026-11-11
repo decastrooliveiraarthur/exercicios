@@ -70,8 +70,8 @@ public class Main {
 
         System.out.println("Exibindo a soma da população dos estados do Nordeste:");
         int soma = 0;
-        for (String estado : populacaoNordeste.keySet()) {
-            soma += populacaoNordeste.get(estado);
+        for (int populacao : populacaoNordeste.values()) {
+            soma += populacao;
         }
         System.out.println(soma);
         System.out.println();
@@ -84,8 +84,7 @@ public class Main {
         System.out.println("Removendo os estados com população menor que 4.000.000:");
         Iterator<Map.Entry<String, Integer>> iterator = populacaoNordeste.entrySet().iterator();
         while (iterator.hasNext()) {
-            String estado = iterator.next().getKey();
-            if (populacaoNordeste.get(estado) < 4_000_000) {
+            if (iterator.next().getValue() < 4_000_000) {
                 iterator.remove();
             }
         }
