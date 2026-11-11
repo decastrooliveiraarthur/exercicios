@@ -31,9 +31,11 @@ Exercício em Java que pratica as principais operações da interface `Map` usan
 
 Requisito: Java 8 ou superior (JDK instalado).
 
+A partir da pasta do exercício (`populacao-nordeste`):
+
 ```bash
-javac Main.java
-java Main
+javac -d out src/Main.java
+java -cp out Main
 ```
 
 ## Resultados esperados
@@ -52,9 +54,11 @@ java Main
 ## Estrutura
 
 ```
-.
-├── Main.java
-└── README.md
+populacao-nordeste/
+├── .gitignore
+├── README.md
+└── src/
+    └── Main.java
 ```
 
 ## Autor

@@ -39,7 +39,6 @@ O programa cria um conjunto com as cores do arco-íris (`vermelho`, `laranja`, `
 arco-iris/
 ├── src/
 │   └── Main.java
-├── arco-iris.iml
 └── README.md
 ```
 

@@ -31,9 +31,11 @@ calcule a média semestral das temperaturas e mostre todas as temperaturas acima
 
 Requisito: JDK 9 ou superior (o código usa `List.of`).
 
+A partir da pasta do exercício:
+
 ```bash
-javac Main.java
-java Main
+javac -d out src/Main.java
+java -cp out Main
 ```
 
 ## Exemplo de execução

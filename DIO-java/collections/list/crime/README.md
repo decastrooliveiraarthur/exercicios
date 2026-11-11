@@ -41,9 +41,11 @@ Exercício em Java para praticar o uso de **listas** (`List` e `ArrayList`). O p
 
 Requisitos: **Java 14 ou superior** (por causa do `case` com múltiplos valores).
 
+A partir da pasta do exercício:
+
 ```bash
-javac Main.java
-java Main
+javac -d out src/Main.java
+java -cp out Main
 ```
 
 ## Exemplo de execução
